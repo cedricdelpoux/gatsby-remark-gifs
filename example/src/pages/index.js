@@ -1,7 +1,7 @@
 import {Link, graphql} from "gatsby"
 import React from "react"
 
-export default ({data: {allMarkdownRemark}}) => {
+const PageIndex = ({data: {allMarkdownRemark}}) => {
   return (
     <div>
       <ul>
@@ -16,6 +16,8 @@ export default ({data: {allMarkdownRemark}}) => {
     </div>
   )
 }
+
+export default PageIndex
 
 export const pageQuery = graphql`
   query IndexQuery {
