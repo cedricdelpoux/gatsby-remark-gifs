@@ -1,6 +1,6 @@
 {
   "name": "gatsby-remark-gifs",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "description": "Gatsby remark plugin to make .gif images work",
   "repository": "https://github.com/cedricdelpoux/gatsby-remark-gifs",
   "author": {
